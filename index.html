@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tumikia Congo SARL - Multi-Service Professional</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#home">
+            <img src="images/tumika-logo.PNG" alt="Tumikia Congo SARL Logo" />
+          </a>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#home" class="active">Accueil</a></li>
+            <li><a href="#about">À Propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Équipe</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2>Bienvenue Chez</h2>
+          <h1>Tumikia Congo SARL</h1>
+          <p>
+            Nous sommes ravis de vous présenter aujourd'hui notre entreprise
+            multi services professionnel, une société dynamique et polyvalente
+            qui vise à fournir une large gamme de services de qualité à ses
+            clients.
+          </p>
+          <div class="hero-buttons">
+            <a href="#services" class="btn btn-primary">Nos Services</a>
+            <a href="#contact" class="btn btn-secondary">Contactez-nous</a>
+          </div>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>À Propos</h2>
+          <h3>Notre Présentation</h3>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Notre entreprise s'engage à offrir une expertise variée dans
+              différentes industries, ce qui nous permet de répondre aux besoins
+              divers secteurs d'activité. Que vous soyez une petite entreprise
+              locale ou une grande entreprise internationale, nous sommes là
+              pour vous aider à atteindre vos objectifs.
+            </p>
+
+            <div class="vision-mission">
+              <div class="vision">
+                <h4><i class="fas fa-eye"></i> Notre Vision</h4>
+                <p>
+                  Devenir un leader incontesté des services professionnels
+                  multivalent, en offrant une gamme complète de solutions haut
+                  de gamme à nos clients tout en maintenant des normes élevées
+                  de qualité, d'efficacité et d'innovation.
+                </p>
+              </div>
+              <div class="mission">
+                <h4><i class="fas fa-bullseye"></i> Notre Mission</h4>
+                <p>
+                  Fournir des services multiservices professionnels de qualité
+                  supérieure en répondant aux besoins et aux attentes de nos
+                  clients de manière fiable et efficace. Nous nous engageons à
+                  offrir des solutions complètes qui garantissent la
+                  satisfaction totale de nos clients.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <img src="images/tumika-logo.PNG" alt="Tumikia Congo SARL" />
+            <a
+              href="images/Profil TC.pdf"
+              download="Business_Profile_TC.pdf"
+              class="btn btn-primary"
+              >Telecharger Notre Business Profile en PDF</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>Nos Services</h2>
+          <h3>Solutions Professionnelles</h3>
+          <p>
+            Notre entreprise propose une vaste gamme de solutions
+            professionnelles pour répondre à tous les besoins de nos clients
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card" data-service="communication">
+            <div class="service-icon">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+            <h4>Communication & Marketing</h4>
+            <p>
+              Nous proposons ces services pour aider nos clients à promouvoir
+              leur produit et à développer leur présence en ligne.
+            </p>
+            <button class="read-more" data-target="communication">
+              En savoir plus
+            </button>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card" data-service="evenementiel">
+            <div class="service-icon">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h4>Événementiel</h4>
+            <p>
+              Nous sommes spécialisés dans l'organisation et la gestion
+              d'événements divers.
+            </p>
+            <button class="read-more" data-target="evenementiel">
+              En savoir plus
+            </button>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card" data-service="geologie">
+            <div class="service-icon">
+              <i class="fas fa-mountain"></i>
+            </div>
+            <h4>Géologie</h4>
+            <p>
+              Nous offrons une gamme complète de services, de l'évaluation des
+              ressources minérales à la modélisation géologique.
+            </p>
+            <button class="read-more" data-target="geologie">
+              En savoir plus
+            </button>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card" data-service="informatique">
+            <div class="service-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h4>Informatique</h4>
+            <p>
+              Fournitures, maintenance et réparation du matériel informatique,
+              installation de logiciels, support technique, etc.
+            </p>
+            <button class="read-more" data-target="informatique">
+              En savoir plus
+            </button>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card" data-service="transport">
+            <div class="service-icon">
+              <i class="fas fa-truck"></i>
+            </div>
+            <h4>Transport</h4>
+            <p>
+              Nous disposons d'une flotte de véhicules de haute gamme et d'une
+              équipe des conducteurs expérimentés.
+            </p>
+            <button class="read-more" data-target="transport">
+              En savoir plus
+            </button>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="service-card" data-service="construction">
+            <div class="service-icon">
+              <i class="fas fa-hard-hat"></i>
+            </div>
+            <h4>Construction</h4>
+            <p>
+              Nous avons une vaste expérience dans la réalisation de projets
+              résidentiels, commerciaux et industriels.
+            </p>
+            <button class="read-more" data-target="construction">
+              En savoir plus
+            </button>
+          </div>
+
+          <!-- View More Button -->
+          <div class="view-more-container">
+            <button id="view-more-services" class="btn btn-primary">
+              Voir tous les services
+            </button>
+          </div>
+        </div>
+
+        <!-- Additional Services (Hidden initially) -->
+        <div class="services-grid additional-services">
+          <!-- Service 7 -->
+          <div class="service-card" data-service="petroliere">
+            <div class="service-icon">
+              <i class="fas fa-gas-pump"></i>
+            </div>
+            <h4>Industrie Pétrolière</h4>
+            <p>
+              Nous sommes spécialisés dans la distribution des produits
+              pétroliers et des carburants.
+            </p>
+            <button class="read-more" data-target="petroliere">
+              En savoir plus
+            </button>
+          </div>
+
+          <!-- Service 8 -->
+          <div class="service-card" data-service="maintenance">
+            <div class="service-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h4>Maintenance</h4>
+            <p>
+              Notre équipe de technicien peut prendre en charge la maintenance
+              préventive et corrective de vos installations.
+            </p>
+            <button class="read-more" data-target="maintenance">
+              En savoir plus
+            </button>
+          </div>
+
+          <!-- Service 9 -->
+          <div class="service-card" data-service="immobilier">
+            <div class="service-icon">
+              <i class="fas fa-home"></i>
+            </div>
+            <h4>Immobilier</h4>
+            <p>
+              Nous aidons nos clients à trouver, acheter, louer ou vendre des
+              biens immobiliers.
+            </p>
+            <button class="read-more" data-target="immobilier">
+              En savoir plus
+            </button>
+          </div>
+
+          <!-- Service 10 -->
+          <div class="service-card" data-service="location">
+            <div class="service-icon">
+              <i class="fas fa-car"></i>
+            </div>
+            <h4>Location Véhicule</h4>
+            <p>
+              Nous mettons à la disposition du client différents types de
+              véhicules pour des besoins personnels ou événementiels.
+            </p>
+            <button class="read-more" data-target="location">
+              En savoir plus
+            </button>
+          </div>
+
+          <!-- Service 11 -->
+          <div class="service-card" data-service="peinture">
+            <div class="service-icon">
+              <i class="fas fa-paint-roller"></i>
+            </div>
+            <h4>Peinture & Décoration</h4>
+            <p>
+              Nous proposons des services de rénovation des murs, pose des
+              papiers peints et décoration intérieure.
+            </p>
+            <button class="read-more" data-target="peinture">
+              En savoir plus
+            </button>
+          </div>
+
+          <!-- Service 12 -->
+          <div class="service-card" data-service="demenagement">
+            <div class="service-icon">
+              <i class="fas fa-box-open"></i>
+            </div>
+            <h4>Déménagement</h4>
+            <p>
+              Notre équipe spécialisée peut assurer votre déménagement,
+              l'emballage des biens et transport des meubles.
+            </p>
+            <button class="read-more" data-target="demenagement">
+              En savoir plus
+            </button>
+          </div>
+
+          <!-- Service 13 -->
+          <div class="service-card" data-service="assainissement">
+            <div class="service-icon">
+              <i class="fas fa-water"></i>
+            </div>
+            <h4>Assainissement</h4>
+            <p>
+              Nous sommes experts dans la mise en œuvre des projets
+              d'assainissement et de traitement d'eaux usées.
+            </p>
+            <button class="read-more" data-target="assainissement">
+              En savoir plus
+            </button>
+          </div>
+
+          <!-- Service 14 -->
+          <div class="service-card" data-service="jardinage">
+            <div class="service-icon">
+              <i class="fas fa-leaf"></i>
+            </div>
+            <h4>Jardinage</h4>
+            <p>
+              Nous proposons des services d'entretien paysager pour maintenir
+              vos espaces extérieurs attrayants et soignés.
+            </p>
+            <button class="read-more" data-target="jardinage">
+              En savoir plus
+            </button>
+          </div>
+
+          <!-- Service 15 -->
+          <div class="service-card" data-service="menager">
+            <div class="service-icon">
+              <i class="fas fa-broom"></i>
+            </div>
+            <h4>Entretien Ménager</h4>
+            <p>
+              Notre personnel qualifié peut assurer le nettoyage régulier et
+              approfondi de vos locaux, bureaux et résidences.
+            </p>
+            <button class="read-more" data-target="menager">
+              En savoir plus
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service Details Modal -->
+      <div id="service-modal" class="modal">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <div id="modal-content-container">
+            <!-- Content will be dynamically inserted here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+      <div class="container">
+        <div class="section-header">
+          <h2>Notre Équipe</h2>
+          <h3>Leadership</h3>
+          <p>
+            Découvrez les personnes qui dirigent Tumikia Congo SARL avec vision
+            et expertise
+          </p>
+        </div>
+
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="member-image">
+              <img src="images/david.jpeg" alt="David Mutombo" />
+            </div>
+            <div class="member-info">
+              <h4>David Mutombo</h4>
+              <p class="member-position">CEO Tumikia Congo SARL</p>
+              <p class="member-bio">
+                Leader visionnaire guidant l'entreprise vers l'excellence et
+                l'innovation dans tous nos services professionnels.
+              </p>
+              <div class="member-social">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-member">
+            <div class="member-image">
+              <img src="images/gloire.jpeg" alt="Gloire Mbaya" />
+            </div>
+            <div class="member-info">
+              <h4>Gloire Mbaya</h4>
+              <p class="member-position">
+                Associate Manager Tumikia Congo SARL
+              </p>
+              <p class="member-bio">
+                Gestionnaire talentueux supervisant les opérations quotidiennes
+                et assurant la satisfaction de nos clients.
+              </p>
+              <div class="member-social">
+                <a href="https://www.linkedin.com/in/gloire-mbaya-0aa268212/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values Section -->
+    <section id="values" class="values">
+      <div class="container">
+        <div class="section-header">
+          <h2>Nos Valeurs</h2>
+          <h3>Ce qui nous définit</h3>
+          <p>Les quatre valeurs fondamentales de Tumikia Congo SARL</p>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <h4>Excellence</h4>
+            <p>
+              Nous nous engageons à offrir un service de qualité supérieure dans
+              tous les aspects de notre travail, en visant constamment à
+              dépasser les attentes de nos clients.
+            </p>
+          </div>
+
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <h4>Collaboration</h4>
+            <p>
+              Nous travaillons ensemble avec nos clients et partenaires pour
+              créer des solutions adaptées et atteindre des objectifs communs.
+            </p>
+          </div>
+
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="fas fa-sync-alt"></i>
+            </div>
+            <h4>Flexibilité</h4>
+            <p>
+              Nous nous adaptons rapidement aux changements et aux besoins
+              spécifiques de chaque client, en proposant des solutions sur
+              mesure.
+            </p>
+          </div>
+
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="fas fa-balance-scale"></i>
+            </div>
+            <h4>Responsabilité</h4>
+            <p>
+              Nous assumons la responsabilité de nos actions et nous nous
+              engageons à respecter nos promesses envers nos clients, notre
+              communauté et l'environnement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Business Units Section -->
+    <section id="business-units" class="business-units">
+      <div class="container">
+        <div class="section-header">
+          <h2>Nos Partenaires</h2>
+          <h3>Ceux qui nous font confiance</h3>
+          <p>
+            Nos clients témoignent de notre expertise diversifiée. Grâce à notre
+            connaissance approfondie des différents secteurs d'activité, nous
+            accompagnons avec succès des entreprises variées. Chacune de nos
+            business units déploie un savoir-faire spécifique, permettant à nos
+            clients de prospérer dans leur domaine respectif et d'atteindre
+            leurs objectifs de croissance.
+          </p>
+        </div>
+
+        <div class="business-units-carousel">
+          <div class="carousel-container">
+            <div class="carousel-slide">
+              <div class="business-unit">
+                <div class="business-unit-icon">
+                  <img src="images/logo-HK.png" alt="" />
+                </div>
+                <h4>Gouvernorat Haut Katanga</h4>
+                <p>
+                  Avec Le Gourvenorat du Haut Katanga , Nous gerons tout le
+                  departement de IT et Assurons le bon developpement de tous les
+                  projets de l'entreprise
+                </p>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="business-unit">
+                <div class="business-unit-icon">
+                  <img src="images/tumika-logo.PNG" alt="" />
+                </div>
+                <h4>Tumikia Congo</h4>
+                <p>
+                  Avec Tumikia Congo , Nous gerons tout le departement de IT et
+                  Assurons le bon developpement de tous les projets de
+                  l'entreprise
+                </p>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="business-unit">
+                <div class="business-unit-icon">
+                  <img src="images/tumika-logo.PNG" alt="" />
+                </div>
+                <h4>Tumikia Congo</h4>
+                <p>
+                  Avec Tumikia Congo , Nous gerons tout le departement de IT et
+                  Assurons le bon developpement de tous les projets de
+                  l'entreprise
+                </p>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="business-unit">
+                <div class="business-unit-icon">
+                  <img src="images/tumika-logo.PNG" alt="" />
+                </div>
+                <h4>Tumikia Congo</h4>
+                <p>
+                  Avec Tumikia Congo , Nous gerons tout le departement de IT et
+                  Assurons le bon developpement de tous les projets de
+                  l'entreprise
+                </p>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="business-unit">
+                <div class="business-unit-icon">
+                  <img src="images/tumika-logo.PNG" alt="" />
+                </div>
+                <h4>Tumikia Congo</h4>
+                <p>
+                  Avec Tumikia Congo , Nous gerons tout le departement de IT et
+                  Assurons le bon developpement de tous les projets de
+                  l'entreprise
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-controls">
+            <button id="prev-slide" class="carousel-control">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel-indicators">
+              <!-- Indicators will be added via JavaScript -->
+            </div>
+            <button id="next-slide" class="carousel-control">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <h3>Contactez-nous</h3>
+          <p>
+            Nous sommes à votre disposition pour répondre à toutes vos questions
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4>Adresse</h4>
+                <p>123 Square Tshiangalele, Carrefour</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h4>Téléphone</h4>
+                <p>+243-999-597-701</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>contact@tumikiacongo.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div>
+                <h4>Site Web</h4>
+                <p>www.tumikiacongosarl.com</p>
+              </div>
+            </div>
+
+            <div class="social-media">
+              <h4>Suivez-nous</h4>
+              <div class="social-icons">
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Votre Nom"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Votre Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Sujet"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Votre Message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Envoyer Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="images/tumika-logo.PNG" alt="Tumikia Congo SARL Logo" />
+            <p>
+              Une entreprise multi-services professionnelle à votre service.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <h4>Liens Rapides</h4>
+            <ul>
+              <li><a href="#home">Accueil</a></li>
+              <li><a href="#about">À Propos</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#team">Équipe</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-services">
+            <h4>Nos Services</h4>
+            <ul>
+              <li><a href="#services">Communication & Marketing</a></li>
+              <li><a href="#services">Événementiel</a></li>
+              <li><a href="#services">Construction</a></li>
+              <li><a href="#services">Transport</a></li>
+              <li><a href="#services">Informatique</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h4>Contact</h4>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 123 Square Tshiangalele,
+              Carrefour
+            </p>
+            <p><i class="fas fa-phone"></i> +243-999-597-701</p>
+            <p><i class="fas fa-envelope"></i> contact@tumikiacongo.com</p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Tumikia Congo SARL. Tous droits réservés.</p>
+          <p>
+            &copy; Designed by
+            <a href="http://lygmgroup.co.za" target="_blank">LYGM Group</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
